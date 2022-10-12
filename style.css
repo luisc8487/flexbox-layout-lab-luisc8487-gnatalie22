@@ -52,14 +52,16 @@ section {
 }
 main{
     display: flex;
+    margin: 15px;
     
 }
-.coloumn1{
+.column1{
     /*flex-grow:1;*/
+    margin-right: 25px;
     
 }
 .column2{
-    /*flex-grow:2;*/
+    /*flex-grow:1;*/
 }
 .box{
     width:273px;
