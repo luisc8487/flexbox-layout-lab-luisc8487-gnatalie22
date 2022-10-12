@@ -50,3 +50,20 @@ section {
     margin-bottom: 20px;
     border-radius: 50%;
 }
+main{
+    display: flex;
+    
+}
+.coloumn1{
+    /*flex-grow:1;*/
+    
+}
+.column2{
+    /*flex-grow:2;*/
+}
+.box{
+    width:273px;
+    height:129px;
+    background-color:gray;
+    flex-grow:1;
+}
