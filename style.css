@@ -1,0 +1,52 @@
+body {
+    margin: auto;
+    max-width: 1152px;
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color:black ;
+    padding: 14px 16px;
+    text-decoration: none;
+    flex-direction: right;
+}
+
+li a:hover:not(.active) {
+    background-color: grey;
+}
+
+.brand-name {
+    background-color: #e19999;
+}
+
+section {
+    background-color: grey;
+    display: flex;
+    justify-content:center;
+}
+
+.circle {
+    background-color: #e19999;
+    width: 210px;
+    height: 210px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
