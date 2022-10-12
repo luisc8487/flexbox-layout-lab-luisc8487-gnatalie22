@@ -1,6 +1,7 @@
 body {
     margin: auto;
     max-width: 1152px;
+    min-width: 220px;
 }
 
 nav {
@@ -22,7 +23,7 @@ li {
 
 li a {
     display: block;
-    color:black ;
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
     flex-direction: right;
@@ -39,7 +40,7 @@ li a:hover:not(.active) {
 section {
     background-color: grey;
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 .circle {
@@ -50,22 +51,27 @@ section {
     margin-bottom: 20px;
     border-radius: 50%;
 }
-main{
+
+main {
     display: flex;
-    margin: 15px;
-    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
 }
-.column1{
-    /*flex-grow:1;*/
+
+.column1 {
+    flex: 2 200px;
     margin-right: 25px;
-    
 }
-.column2{
-    /*flex-grow:1;*/
+
+.column2 {
+    flex: 3 200px;
 }
-.box{
-    width:273px;
-    height:129px;
-    background-color:gray;
-    flex-grow:1;
+
+.box {
+    width: 273px;
+    height: 129px;
+    background-color: gray;
+    /*flex:1;*/
+    margin: auto;
 }
